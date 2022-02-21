@@ -13,8 +13,8 @@ public class Mage {
         return "Name: " + name + ", " + "Level: " + level + ", " + "Damage: " + damage + ", " + "Type: " + type + ".";
     }
 
-    public String fight(Mage mage) {
-        if String fire;
+    public static String fight(Mage mage, Mage mage2) {
+        if  fire;
         type = fire
 
 

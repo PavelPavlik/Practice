@@ -19,6 +19,6 @@ public class Main {
         System.out.println(mage1.getInfo(mage1));
         System.out.println(mage2.getInfo(mage2));
         System.out.println(mage3.getInfo(mage3));
-        System.out.println("WIN: " + fight(mage1,mage2));
+        System.out.println("WIN: " + Mage.fight(mage1,mage2));
     }
 }
