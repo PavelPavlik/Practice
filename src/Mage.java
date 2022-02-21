@@ -14,6 +14,6 @@ public class Mage {
     }
 
     public static String fight(Mage mage, Mage mage2) {
-        if  fire;
+        if(String type!=fire)
     }
 }
