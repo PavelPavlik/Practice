@@ -12,6 +12,9 @@ public class Main {
         justTank.goForward(-200);
         justTank.printPosition();
         anywareTank.goBackward(-200);
+        anywareTank.printPosition();
+        customTank.goForward(201);
+
 
 
         customTank.printPosition();

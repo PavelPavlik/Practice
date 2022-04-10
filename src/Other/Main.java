@@ -28,13 +28,17 @@ public class Main {
 //            System.out.print(item + " ");
 //        }
 //        ToTable a = new ToTable(new int[] {1, 2, 3, 4, 5, 6}, 3, 2);
-        ToLine a = new ToLine(new int[][] {{1, 2}, {3, 4}, {5, 6}});
+//        ToLine a = new ToLine(new int[][] {{1, 2}, {3, 4}, {5, 6}});
+////        int[] arr = a.resize();
 //        int[] arr = a.resize();
-        int[] arr = a.resize();
-        for (int ints : arr) {
-                System.out.print(ints + " ");
+//        for (int ints : arr) {
+//                System.out.print(ints + " ");
 
-        }
+//        }
+        Squirrel s = new Squirrel(new int[] {2, 5, -3, -1});
+        System.out.println(s.maxNuts());
+        Squirrel s2 = new Squirrel(new int[] {1, -2, 3, 1, -1, -4, 2, 3});
+        System.out.println(s2.maxNuts());
     }
 }
 
