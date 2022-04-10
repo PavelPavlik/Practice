@@ -14,7 +14,7 @@ public class Main {
         anywareTank.goBackward(-200);
         anywareTank.printPosition();
         customTank.goForward(201);
-        customTank.printPosition();
+
 
 /*
 This fragment of code has to output
